@@ -1,5 +1,53 @@
 .App {
   text-align: center;
+  text-decoration: none;
+}
+ul> li {
+  list-style: none;
+}
+.container{
+  display: flex;
+}
+.main{
+  flex-grow: 2;
+}
+ .profile-sec {
+  flex-grow: 1;
+ }
+.books{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.books> li {
+  flex-basis: 250px; /* width: 350px; */
+  border: 1px solid;
+  padding: 10px;
+  list-style: none;
+  
+}
+.bookform{
+  display: flex;
+  justify-content: center;
+}
+.userform{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.userimage{
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.userform > input {
+  width: 100%;
+}
+.userdetailslistitem {
+  display: flex;
 }
 
 .App-logo {
